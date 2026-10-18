@@ -7,35 +7,26 @@ body {
     align-items: center;
     font-family: "outfit", sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
     min-height: 100vh;
     background-color:hsl(212, 45%, 89%);
 }
 
 .qrMain {
-    width: 320px;
-    height: 499px;
-    border-radius: 20px;
-    background-color: hsl(0, 0%, 100%);
-    margin-bottom: 24px;
+    width: 288px;
+    max-width: 260px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.6em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 .qrCode {
     width: 288px;
-    height: 288px;
     border-radius: 10px;
-}
-
-.textDiv {
-    width: 288px;
-    height: 131px;  
-    padding: 0 16px;
-    margin-top: 24px;
-	padding: 0.6em;
-	text-align: center;
-	border-radius: 15px;
 }
 
 .heading {
