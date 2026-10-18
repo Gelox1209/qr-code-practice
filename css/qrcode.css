@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,6 +21,7 @@ body {
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
     margin-bottom: 24px;
+	padding: 16px 16px 40px 16px;
 }
 
 .qrCode {
@@ -49,12 +50,3 @@ body {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
-
-.attribution {
-    font-size: 0.6875rem;
-    text-align: center; 
-}
-.attribution a {
-     color: hsl(228, 45%, 44%);
-     text-decoration: none;
- }
