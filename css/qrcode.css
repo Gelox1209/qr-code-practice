@@ -13,6 +13,21 @@ body {
 }
 
 .qrMain {
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 24px;
+
+}
+
+.qrCode {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.textDiv {
     width: 288px;
     max-width: 260px;
     background-color: white;
@@ -21,12 +36,6 @@ body {
     text-align: center;
     padding: 0.6em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.qrCode {
-    width: 288px;
-    border-radius: 10px;
 }
 
 .heading {
