@@ -1,0 +1,45 @@
+body {
+    align-items: center;
+    font-family: "outfit", sans-serif;
+    display: flex;
+    padding: 24px 0;	
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:hsl(212, 45%, 89%);
+}
+
+.qrMain {
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 24px;
+}
+
+.qr {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.textBox {
+    width: 288px;
+    height: 131px;  
+    padding: 0 16px;
+    margin-top: 24px;
+}
+
+.paraText {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    text-align: center;
+    margin-top: 16px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
