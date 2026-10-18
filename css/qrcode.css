@@ -17,20 +17,20 @@ body {
     margin-bottom: 24px;
 }
 
-.qr {
+.qrCode {
     width: 288px;
     height: 288px;
     border-radius: 10px;
 }
 
-.textBox {
+.textDiv {
     width: 288px;
     height: 131px;  
     padding: 0 16px;
     margin-top: 24px;
 }
 
-.paraText {
+.headingText {
     font-size: 15px;
     font-weight: 400;
     color: hsl(216, 15%, 48%);
@@ -43,3 +43,12 @@ body {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+ }
