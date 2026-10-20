@@ -61,6 +61,10 @@ body {
 	width: 280px;
 }
 
+#footer {
+    bottom: 0px;
+}
+
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
